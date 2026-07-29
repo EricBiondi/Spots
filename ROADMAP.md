@@ -3,7 +3,7 @@
 ## Version 0.1 - Foundation
 
 - [x] Create repository
-- [ ] Create Xcode project
+- [x] Create Xcode project
 - [ ] Configure MVVM
 - [ ] Create first MapView
 
