@@ -11,6 +11,9 @@
 		EE116C633014E512002CFBB3 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE116C623014E512002CFBB3 /* AppView.swift */; };
 		EE116C653014E514002CFBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE116C643014E514002CFBB3 /* Assets.xcassets */; };
 		EE116C683014E514002CFBB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE116C673014E514002CFBB3 /* Preview Assets.xcassets */; };
+		EE5B55D6303E054F00138F24 /* SpotsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B55D5303E054F00138F24 /* SpotsHeaderView.swift */; };
+		EE5B55D9303F4B0D00138F24 /* SpotsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B55D8303F4B0D00138F24 /* SpotsColors.swift */; };
+		EE5B55DB303F4E2C00138F24 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B55DA303F4E2C00138F24 /* MenuButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EE116C623014E512002CFBB3 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		EE116C643014E514002CFBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE116C673014E514002CFBB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE5B55D5303E054F00138F24 /* SpotsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsHeaderView.swift; sourceTree = "<group>"; };
+		EE5B55D8303F4B0D00138F24 /* SpotsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsColors.swift; sourceTree = "<group>"; };
+		EE5B55DA303F4E2C00138F24 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 			children = (
 				EE116C603014E512002CFBB3 /* SpotsApp.swift */,
 				EE116C623014E512002CFBB3 /* AppView.swift */,
+				EE5B55D5303E054F00138F24 /* SpotsHeaderView.swift */,
+				EE5B55DA303F4E2C00138F24 /* MenuButtonView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -95,8 +103,17 @@
 		EE116C713019FC81002CFBB3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				EE5B55D7303F4AD700138F24 /* Theme */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		EE5B55D7303F4AD700138F24 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				EE5B55D8303F4B0D00138F24 /* SpotsColors.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +188,9 @@
 			files = (
 				EE116C633014E512002CFBB3 /* AppView.swift in Sources */,
 				EE116C613014E512002CFBB3 /* SpotsApp.swift in Sources */,
+				EE5B55D6303E054F00138F24 /* SpotsHeaderView.swift in Sources */,
+				EE5B55DB303F4E2C00138F24 /* MenuButtonView.swift in Sources */,
+				EE5B55D9303F4B0D00138F24 /* SpotsColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
