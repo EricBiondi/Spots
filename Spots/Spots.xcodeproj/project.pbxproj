@@ -11,9 +11,11 @@
 		EE116C633014E512002CFBB3 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE116C623014E512002CFBB3 /* AppView.swift */; };
 		EE116C653014E514002CFBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE116C643014E514002CFBB3 /* Assets.xcassets */; };
 		EE116C683014E514002CFBB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE116C673014E514002CFBB3 /* Preview Assets.xcassets */; };
+		EE2D860B304DA4990079D599 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D860A304DA4980079D599 /* SearchBarView.swift */; };
 		EE5B55D6303E054F00138F24 /* SpotsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B55D5303E054F00138F24 /* SpotsHeaderView.swift */; };
 		EE5B55D9303F4B0D00138F24 /* SpotsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B55D8303F4B0D00138F24 /* SpotsColors.swift */; };
 		EE5B55DB303F4E2C00138F24 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B55DA303F4E2C00138F24 /* MenuButtonView.swift */; };
+		EE5B55DE3044E2BE00138F24 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B55DD3044E2BE00138F24 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +24,11 @@
 		EE116C623014E512002CFBB3 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		EE116C643014E514002CFBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE116C673014E514002CFBB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE2D860A304DA4980079D599 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		EE5B55D5303E054F00138F24 /* SpotsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsHeaderView.swift; sourceTree = "<group>"; };
 		EE5B55D8303F4B0D00138F24 /* SpotsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsColors.swift; sourceTree = "<group>"; };
 		EE5B55DA303F4E2C00138F24 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		EE5B55DD3044E2BE00138F24 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		EE116C703019FC76002CFBB3 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				EE5B55DC3044E29600138F24 /* Home */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -114,6 +119,15 @@
 				EE5B55D8303F4B0D00138F24 /* SpotsColors.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		EE5B55DC3044E29600138F24 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE5B55DD3044E2BE00138F24 /* HomeView.swift */,
+				EE2D860A304DA4980079D599 /* SearchBarView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +158,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
 					EE116C5C3014E512002CFBB3 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -189,6 +203,8 @@
 				EE116C633014E512002CFBB3 /* AppView.swift in Sources */,
 				EE116C613014E512002CFBB3 /* SpotsApp.swift in Sources */,
 				EE5B55D6303E054F00138F24 /* SpotsHeaderView.swift in Sources */,
+				EE2D860B304DA4990079D599 /* SearchBarView.swift in Sources */,
+				EE5B55DE3044E2BE00138F24 /* HomeView.swift in Sources */,
 				EE5B55DB303F4E2C00138F24 /* MenuButtonView.swift in Sources */,
 				EE5B55D9303F4B0D00138F24 /* SpotsColors.swift in Sources */,
 			);
@@ -232,6 +248,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y2JDC7P899;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -255,6 +272,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -295,6 +313,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y2JDC7P899;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -311,6 +330,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -324,7 +344,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spots/Preview Content\"";
-				DEVELOPMENT_TEAM = Y2JDC7P899;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -353,7 +372,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spots/Preview Content\"";
-				DEVELOPMENT_TEAM = Y2JDC7P899;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

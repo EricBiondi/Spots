@@ -17,7 +17,7 @@ struct MenuButtonView: View {
                 .font(.title)
                 .foregroundColor(Color.spotsSecondary)
         }
-        
+            
     }
 }
 
