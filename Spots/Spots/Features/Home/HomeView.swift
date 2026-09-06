@@ -14,19 +14,28 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             VStack {
-                SpotsHeaderView()
+                ZStack {
+                    SpotsHeaderView()
+                    HStack {
+                        MenuButtonView()
+                        
+                        Spacer()
+                        
+                    }
+                }
                 
                 SearchBarView(location: $location)
                 
-                MenuButtonView()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.top, 10)
+                
                 
                 Spacer()
             }
-            .padding()
+            
         
         }
+        .padding(.horizontal)
+        
+        Spacer()
     }
 }
 
